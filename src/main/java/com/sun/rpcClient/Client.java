@@ -11,5 +11,7 @@ public class Client {
         System.out.println(service.findUserById(123));
         System.out.println(service2.findProductByName("Bob"));
         System.out.println(service.savaUser(service.findUserById(123)));
+
+        System.out.println("hello world！");
     }
 }
